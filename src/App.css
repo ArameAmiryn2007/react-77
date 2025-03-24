@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+}
+.rowrow{
+  display: flex;
+  justify-content: center;
+  background: #000;
+  height: 200px;
+}
+.ul-li-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.ul-li-2 li{
+  list-style: none;
+  margin: 10px;
+}
+.ul-li-2 a{
+  color: #DAC5A7;
+  text-decoration: inherit;
+}
+@media screen and (max-width:600px) {
+  .ul-li-2{
+    position: relative;
+    left: -20px;
+  }
+}
